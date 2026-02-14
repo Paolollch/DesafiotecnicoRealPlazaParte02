@@ -5,7 +5,8 @@ Descripción:
 
 Levantar localmente:
 1) Asegúrate de PostgreSQL corriendo en localhost:5432.
-2) Desde PowerShell en `Backend` ejecutar:
+2) Crear base de datos con el script en la carpeta `Scripts`
+3) Desde PowerShell en `Backend` ejecutar:
    dotnet restore
    dotnet ef database update
    dotnet run --urls http://localhost:5001
