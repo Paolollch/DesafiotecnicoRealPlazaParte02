@@ -8,6 +8,7 @@ Instrucciones rápidas para el evaluador
 1) Preparar PostgreSQL en localhost:5432 (usuario `postgres` con tu contraseña).
 2) Backend:
    - Abrir PowerShell en la carpeta `Backend`
+   - Crear base de datos con el script en la carpeta `Scripts` dentro de la carpeta `Backend`
    - Ejecutar:
      dotnet restore
      dotnet ef database update
